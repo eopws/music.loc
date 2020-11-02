@@ -1,0 +1,234 @@
+#body-blur {
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    z-index: 9000;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+/*
+ =================
+ registration-form
+ =================
+*/
+
+    .registration-form {
+        border: 1px solid #A2A7AD;
+        border-radius: 5px;
+        position: absolute;
+        max-height: 350px;
+        min-height: 300px;
+        max-width: 450px;
+        min-width: 400px;
+        background: #FFF;
+        z-index: 9999;
+        margin: auto;
+        color: #000;
+        height: 70%;
+        width: 31%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    /*
+     -------------
+     hide-form-btn
+     -------------
+     */
+
+    .registration-form__hide-form-btn {
+        position: absolute;
+        cursor: pointer;
+        height: 18px;
+        width: 18px;
+        top: -8%;
+        right: 0;
+    }
+
+    .registration-form__hide-form-btn img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .registration-form__hide-form-btn img:hover {
+        opacity: .7;
+    }
+    /*
+     ---------
+     auth-type
+     ---------
+    */
+
+        .registration-form__auth-type {
+            height: 20%;
+        }
+
+        .auth-type__name {
+            display: inline-block;
+            vertical-align: top;
+            background: #D2D8D8;
+            text-align: center;
+            cursor: pointer;
+            font-size: 14px;
+            color: #9CA6A4;
+            height: 100%;
+            width: 50%;
+        }
+
+        .auth-type__name span {
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .auth-type__name:before {
+            vertical-align: middle;
+            display: inline-block;
+            height: 100%;
+            content: '';
+        }
+
+        .auth-type__name-l {
+            border-top-left-radius: 5px;
+        }
+
+        .auth-type__name-r {
+            border-top-right-radius: 5px;
+        }
+
+        .auth-type__name[data-active] {
+            background: #FFF;
+            cursor: default;
+            color: #000;
+        }
+
+    /*
+     ==========
+     form-field
+     ==========
+     */
+
+        .registration-form__form-fields {
+            padding-top: 15px;
+            margin: 0 auto;
+            height: 80%;
+            width: 89%;
+        }
+
+        /*
+         ------------------
+         form-fields__field
+         ------------------
+         */
+
+        .form-fields__field {
+            padding-left: 3.768844221105528%;
+            border: 2px solid #D9D9D9;
+            background: #F2F2F2;
+            border-radius: 3px;
+            height: 21%;
+            width: 100%;
+        }
+
+        .form-fields__field:before {
+            vertical-align: middle;
+            display: inline-block;
+            height: 100%;
+            content: '';
+        }
+
+        .field__icon {
+            vertical-align: middle;
+            height: 62%;
+            width: 4%;
+        }
+
+        .field__input {
+            padding-right: 10px;
+            margin-left: 10px;
+            font-weight: 300;
+            background: 0;
+            height: 30px;
+            width: 79%;
+            border: 0;
+        }
+
+        .field__input[data-error] {
+            color: #FF0000;
+        }
+
+        .field__input-pwd {
+            border-right: 1px solid #D9D9D9;
+        }
+
+        .field__hide-btn {
+            width: 12.231156%;
+            font-size: 13px;
+            cursor: pointer;
+            background: 0;
+            outline: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .field__hide-btn:hover {
+            opacity: .7;
+        }
+
+        .field-password {
+            margin-top: 10px;
+        }
+
+        /*
+         ---------------------
+         form-fields__remember
+         ---------------------
+         */
+
+            .form-fields__remember {
+                font-weight: 300;
+                margin-top: 15px;
+                font-size: 13px;
+            }
+
+            .remember__checkbox {
+                vertical-align: middle;
+                display: inline-block;
+                cursor: pointer;
+            }
+
+        /*
+         --------------------
+         form-fields__submuit
+         --------------------
+         */
+
+            .form-fields__submit-btn {
+                background: #2F879A;
+                border-radius: 3px;
+                margin-top: 15px;
+                height: 21%;
+                padding: 0;
+                border: 0;
+            }
+
+            .submit-btn__input {
+                text-align: center;
+                border-radius: 3px;
+                font-size: 16px;
+                cursor: pointer;
+                background: 0;
+                height: 100%;
+                color: #FFF;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                border: 0;
+            }
+
+            .submit-btn__input:hover {
+                background: #1B7386;
+            }
