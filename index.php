@@ -12,7 +12,7 @@ define('STYLES', ABSPATH . 'assets/styles/');
 define('ICONS', '/assets/icons/');
 define('IMAGES', '/assets/images/');
 define('TEMPLATES', ABSPATH . 'assets/templates/');
-define('SCRIPTS_PHP', ABSPATH . 'php/');
+define('SCRIPTS_PHP', ABSPATH . 'includes/');
 
 // Connect database
 require SCRIPTS_PHP . 'DB_class.php';
