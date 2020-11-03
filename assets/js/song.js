@@ -57,6 +57,9 @@ function songPlay() {
 	if ( songLoop ) return 0;
 
 	if ( !window.audio.paused ) window.audio.pause();
+	
+	// we cannot play an audio track if it doesn't exist
+	if ( !window.audio.src ) return;
 
 	window.audio.play();
 
